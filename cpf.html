@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/cpf.css">
+    <title>CPF</title>
+</head>
+<body>
+    <div class="w3-bar">
+        <img src="img/Logo.png" class="logo">
+    </div>
+    <div class="w3-container">
+        <form method="post" action="ListaExames.php">
+            <p class="w3-center w3-jumbo">Digite seu CPF no campo abaixo para prosseguir com a retirada do exame.</p>
+
+            <input class="w3-input w3-jumbo w3-display-middle cpf" type="text" name="cpf" placeholder="Ex.: 12345678900">
+            <input value="Pronto" type="submit" class="w3-button verdeclaro w3-jumbo w3-display-middle botao">
+        </form>
+    </div>
+    <button onclick="document.getElementById('help').style.display='block'" class="w3-btn verdeclaro" id="helpbtn">?</button>
+
+    <div id="help" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-display-middle caixa">
+          <header class="w3-container verdeclaro"> 
+            <span onclick="document.getElementById('help').style.display='none'" class="w3-button w3-display-topright x">&times;</span>
+            <h2 style="font-weight: bold; font-size: 60px;">Ajuda</h2>
+          </header>
+          <div class="w3-container">
+            <p style="font-size: 34px; font-weight: lighter;">Insira seu CPF no campo indicado sem uso de ponto ou traço. </br></br>Como é mostrado no exemplo.</p>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

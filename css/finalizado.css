@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 12%;
+    height: 225px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.botao{
+    background-color: #7ee0a2;
+    position: fixed;
+    top: 85%;
+    left: 42.5%;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#final{
+    font-size: 110px;
+    font-weight: bolder;
+    margin-top: 300px;
+}
+
+#volta{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 350px;
+}
+
+#barracontainer{
+    width: 30%;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 80%;
+    left: 35%;
+}
+
+#barra{
+    width: 0;
+    height: 7px;
+    background-color: #7ee0a2;
+    transition: width 14.5s linear;
+}
